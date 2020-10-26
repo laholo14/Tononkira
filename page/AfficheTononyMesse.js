@@ -96,7 +96,6 @@ const styles = StyleSheet.create({
     tononyRefrain: {
         fontSize: 17,
         paddingLeft: 18,
-        fontStyle: 'italic',
         fontWeight: 'bold',
     },
     footer: {
