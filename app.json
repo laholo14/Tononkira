@@ -1,15 +1,11 @@
 {
   "expo": {
-    "name": "Tononkira",
-    "slug": "Tononkira",
+    "name": "Tononkira Mpanentana Avaratranjoma",
+    "slug": "Tononkira_Mpanentana_Avaratranjoma",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
-    "splash": {
-      "image": "./assets/splash.png",
-      "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
-    },
+
     "updates": {
       "fallbackToCacheTimeout": 0
     },
@@ -17,10 +13,21 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.tsiory.tononkira"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "android": {
+      "package": "com.tsiory.tononkira",
+      "versionCode":1
+    },
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#e3dd87"
     }
+ 
   }
 }
